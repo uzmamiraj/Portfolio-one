@@ -1,0 +1,155 @@
+*{
+	margin: 0%;
+	/*height: 700px;*/
+}
+body{
+	height: 100vh;
+}
+nav{
+	background: #3d4447;
+	height: 80px;
+}
+ul li{
+	display: inline-block;
+	width: 300px;
+	margin: -90px;
+	/*float: left;*/
+	position: relative;
+	bottom: 30px;
+	left: 590px;
+	color: beige;
+	font-family: Algerian;
+	font-size: larger;
+	/*font-weight: bold;*/
+	transition: 2s;
+}
+nav ul li:hover{
+	transform: translate(2px);
+	color: #3d4447;
+	cursor: pointer;
+	text-decoration: 3px solid beige underline;
+	/*border: 1px solid white;*/
+	
+}
+h1{
+	text-transform: uppercase;
+	color: beige;
+	font-family: showcard gothic;
+	letter-spacing: 3px;
+	padding:  20px;
+	position: relative;
+	top: 10px;
+	left: 20px;
+	transition: 2s;
+}
+h1:hover{
+	cursor: pointer;
+	transform:translate(2px;);
+	color: #3d4447;
+
+}
+#slider{
+	background-image: url(../img/pic.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 900px;
+	position: relative;
+	bottom: 400px;
+}
+.class-one{
+	background-color: rgba(30, 40, 50, 0.9);
+	height: 900px;
+	font-family:Algerian;
+	font-size: 20;
+	transition: 2s;
+}
+
+#slider h2{
+	text-align: center;
+    /*text-transform: capitalize;*/
+    margin-top: 400px;
+    font-size: 45px;
+    color: #3d4447;
+}
+#slider h2:hover{
+	transform: translate(3px);
+	color: beige;
+	cursor: pointer;
+}
+
+h2{
+	position: relative;
+	top: 200px;
+	transition: 2s;
+}
+#slider .para1{
+	position: relative;
+	top: 380px;
+	right: 420px;
+	color: beige;
+	font-family: Algerian;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: xx-large;
+	border: none;
+	border-right: 2px solid beige;
+}
+#slider .para2{
+	position: relative;
+	top: 295px;
+	right: 190px;
+	color:beige;
+	font-family: Algerian;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: xx-large;
+	border: none;
+	border-left: 2px solid beige;
+}
+#slider .para3{
+	position: relative;
+	top: 210px;
+	left: 60px;
+	color: beige;
+	font-family: Algerian;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: xx-large;
+	border: none;
+	border-right: 2px solid beige;
+
+}
+#slider .para4{
+	position: relative;
+	top: 130px;
+	left: 330px;
+	color: beige;
+	font-family: Algerian;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: xx-large;
+	border: none;
+	border-left: 2px solid beige;
+
+	}
+button{
+	text-transform: capitalize;
+	background: transparent;
+	border: 2px solid white;
+	color: white;
+	width: 150px;
+	position: relative;
+	top: 280px;
+	padding: 10px;
+	left: 550px;
+	transition: 2s;
+	box-shadow: 2px 2px 5px 2px #3d4447;
+	border-radius: 5%;
+}
+button:hover{
+	cursor: pointer;
+	transform: scale(2);
+}
+button:focus{
+	outline: none;
+}
